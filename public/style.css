@@ -1,0 +1,10 @@
+/* style.css - sederhana */
+:root { --bg: #f7f8fb; --card: #fff; --muted:#666; }
+body { margin:0; font-family: Inter, system-ui, Arial; background:var(--bg); color:#111; }
+.container { max-width:800px; margin:48px auto; padding:24px; }
+h1 { margin:0 0 12px 0; }
+.box { margin-top:16px; background:var(--card); padding:16px; border-radius:8px; box-shadow:0 2px 8px rgba(0,0,0,0.06); }
+pre { background:#0b1220; color:#e6f1ff; padding:12px; border-radius:6px; overflow:auto; }
+button { padding:10px 14px; border-radius:6px; border:1px solid #ddd; background:white; cursor:pointer; }
+.hints { margin-top:18px; color:var(--muted); }
+code { background:#efefef; padding:2px 6px; border-radius:4px; font-family:monospace; }
